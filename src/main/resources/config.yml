@@ -1,0 +1,16 @@
+# CustomCrafting Configuration
+# Plugin do tworzenia niestandardowych przepisów craftingowych
+
+# Wiadomości
+messages:
+  prefix: "&6[CustomCrafting] &r"
+  recipe-created: "&aUtworzono nowy przepis: &e%recipe%"
+  recipe-deleted: "&cUsunięto przepis: &e%recipe%"
+  recipe-exists: "&cPrzepis o tej nazwie już istnieje!"
+  recipe-not-found: "&cNie znaleziono przepisu: &e%recipe%"
+  no-permission: "&cNie masz uprawnień do tej komendy!"
+  reloaded: "&aPlugin został przeładowany!"
+  invalid-recipe: "&cNieprawidłowy przepis! Upewnij się, że masz przedmioty w GUI."
+
+# Zapisane przepisy (automatycznie zarządzane przez plugin)
+recipes: {}
