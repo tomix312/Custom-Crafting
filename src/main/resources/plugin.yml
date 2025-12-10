@@ -1,0 +1,24 @@
+name: CustomCrafting
+version: ${project.version}
+main: pl.customcrafting.CustomCrafting
+api-version: '1.21'
+author: _HuntedTom1x_
+description: Plugin do tworzenia niestandardowych przepisów craftingowych
+
+commands:
+  customcrafting:
+    description: Główna komenda pluginu CustomCrafting
+    usage: /<command> <create|delete|list|reload|gui>
+    aliases: [cc, crafting]
+    permission: customcrafting.use
+
+permissions:
+  customcrafting.use:
+    description: Pozwala używać podstawowych komend
+    default: op
+  customcrafting.admin:
+    description: Pozwala na zarządzanie przepisami
+    default: op
+  customcrafting.reload:
+    description: Pozwala przeładować plugin
+    default: op
